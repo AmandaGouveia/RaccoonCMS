@@ -1,6 +1,7 @@
 # RaccoonCMS
 A simple customer management solution.
 
+## Status
 This is an extension of a class project so it is very much in alpha and should not actually be used for your business.
 
 ## Credits
