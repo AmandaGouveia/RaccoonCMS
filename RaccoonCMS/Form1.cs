@@ -17,9 +17,25 @@ namespace RaccoonCMS
 {
     public partial class Form1 : Form
     {
+        private List<Customer> customers = new List<Customer>();
+        private readonly string FILE_NAME = "customers.csv";
+
+        private void LoadCustomerFile()
+        {
+            
+        }
         public Form1()
         {
             InitializeComponent();
+            LoadCustomerFile();
+        }
+
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            // Exit the Program
+            this.Close();
+
+            // To Do - add confirmation
         }
     }
 }
