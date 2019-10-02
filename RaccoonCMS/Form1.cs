@@ -1,4 +1,9 @@
-﻿using System;
+﻿// RacconCMS
+// This is a basic customer management system.
+// It reads customer data from a CSV and displays the data, allowing 
+// the user to add, edit, and delete customers from the database.
+
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
