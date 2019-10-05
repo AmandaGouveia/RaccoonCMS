@@ -31,6 +31,10 @@ namespace RaccoonCMS
             get { return _address; }
             set { _address = value; }
         }
+        public string Name
+        {
+            get { return _first_name + " " + _last_name; }
+        }
         public string City
         {
             get { return _city; }
@@ -61,6 +65,11 @@ namespace RaccoonCMS
         {
             get { return _customer_id; }
             set { _customer_id = value; }
+        }
+        public bool MailingList
+        {
+            get { return _mailing_list;}
+            set { _mailing_list = value; }
         }
     }
 }
